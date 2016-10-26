@@ -3,13 +3,13 @@
 
 ```
 object:
-		{
-			result: number,
-			message: string,
-			driver_id: string,
-			uid: string,
-			token: string
-}
+	{
+		result: number,
+		message: string,
+		driver_id: string,
+		uid: string,
+		token: string
+        }
 
 
 

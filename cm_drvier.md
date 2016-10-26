@@ -11,8 +11,8 @@ object:
 			token: string
 }```
 
-
-```object:
+```
+object:
         {
         type: string,
         driver_id: string,
@@ -88,8 +88,8 @@ object:
         }```
 	
 	
-
-```object:
+```
+object:
 		{
 			driver_id: string,
             message: string,

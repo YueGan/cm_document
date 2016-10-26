@@ -9,7 +9,7 @@ object:
 			driver_id: string,
 			uid: string,
 			token: string
-}```
+}
 
 
 
@@ -21,7 +21,7 @@ object:
         type: string,
         driver_id: string,
         scenrio: string
-        }```
+        }
 	
 		
 		
@@ -69,7 +69,7 @@ object:
                       }
              }],
             type: string
-		}```
+		}
 		
 		
 ```
@@ -79,7 +79,7 @@ object:
 			Cmuuid: string,
             Cmversion: string,
             authortoken: string
-		}```
+		}
 		
 		
 ```
@@ -89,7 +89,7 @@ object:
 			errorcode: number,
             message: string,
             result: number
-        }```
+        }
 	
 ```	
 ```
@@ -100,4 +100,5 @@ object:
             result: number,
             token: string,
             uid: string
-        }```
+        }
+```

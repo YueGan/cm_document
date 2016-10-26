@@ -1,5 +1,6 @@
 #cm_driver
 
+
 ```
 object:
 		{
@@ -8,22 +9,21 @@ object:
 			driver_id: string,
 			uid: string,
 			token: string
+}```
+```
+object:
+		{
+			type: string,
+            driver_id: string,
+            scenrio: string
 		}```
-        
-```
-object:{
-         type: string,
-         driver_id: string,
-         scenrio: string
-        }
-```
-        
+
 ```
 object:
 		{
 			result: number,
             message: string,
-            orders: array[ 
+            orders: array[
             0: object:
              {
                 oid: string,
@@ -62,7 +62,7 @@ object:
              }],
             type: string
 		}```
-        
+
 ```
 .headers.Accept:
 		{
@@ -71,7 +71,7 @@ object:
             Cmversion: string,
             authortoken: string
 		}```
-        
+
 ```
 object:
 		{
@@ -79,7 +79,7 @@ object:
             message: string,
             result: number
         }```
-        
+
 ```
 object:
 		{

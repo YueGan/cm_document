@@ -3,8 +3,8 @@
 
 ```
 object:
-	{
-		result: number,
+	   {
+ 		result: number,
 		message: string,
 		driver_id: string,
 		uid: string,
@@ -73,7 +73,8 @@ object:
 		
 		
 ```
-```.headers.Accept:
+```
+.headers.Accept:
 		{
             Cmos: string | string | string | string,
 			Cmuuid: string,

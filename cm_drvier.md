@@ -10,11 +10,13 @@ object:
 			uid: string,
 			token: string
 }```
-      
-         
-	 
 
-```object:
+
+
+
+```
+```
+object:
         {
         type: string,
         driver_id: string,
@@ -23,7 +25,7 @@ object:
 	
 		
 		
-
+```
 ```
 object:
 		{
@@ -70,7 +72,7 @@ object:
 		}```
 		
 		
-
+```
 ```.headers.Accept:
 		{
             Cmos: string | string | string | string,
@@ -80,7 +82,7 @@ object:
 		}```
 		
 		
-
+```
 ```
 object:
 		{
@@ -89,7 +91,7 @@ object:
             result: number
         }```
 	
-	
+```	
 ```
 object:
 		{

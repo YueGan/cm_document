@@ -11,8 +11,7 @@ object:
 			token: string
 }```
 
-```
-object:
+```object:
         {
         type: string,
         driver_id: string,
@@ -69,8 +68,7 @@ object:
 		
 		
 
-```
-.headers.Accept:
+```.headers.Accept:
 		{
             Cmos: string | string | string | string,
 			Cmuuid: string,
@@ -90,8 +88,7 @@ object:
 	
 	
 
-```
-object:
+```object:
 		{
 			driver_id: string,
             message: string,

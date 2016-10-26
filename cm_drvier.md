@@ -11,6 +11,7 @@ object:
 			token: string
 }```
 
+
 ```object:
         {
         type: string,

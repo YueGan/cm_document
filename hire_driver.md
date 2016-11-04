@@ -1,28 +1,14 @@
 ##司机申请表格申请API参数
 
-URL:
+| Tables |  说明 |  默认值|
+| :-------------:| :-----:|:-----:|
+| URL | 　www.chanmao.ca ||
+| HTTP请求方式 | POST |  |
+| 是否需要登录 | 否 |  |
+| 授权访问限制 | 暂无 |  |
+| 授权范围() | 暂无 | |
+| 支持格式 | JSON | |
 
-　www.chanmao.ca
- 
-支持格式:
-
-　JSON
- 
-HTTP请求方式:
-
-　POST
- 
-是否需要登录:
-
-　否
- 
-授权访问限制:
-
-　暂无
- 
-授权范围(DriverSearchModule):
-
-　暂无
 
 表头参数:
 
@@ -39,7 +25,7 @@ HTTP请求方式:
 
 
 
-返回结果(默认JSON)
+
 
 返回字段说明:
 
@@ -48,10 +34,10 @@ HTTP请求方式:
 | result | number |  请求是否成功 ||
 | message | string | 报错信息 | 空|
 
-<span style="background-color : lightbule">
+返回结果(默认JSON):
 ```
 {
     result: number,
     message: string
 }```
-</span>
+

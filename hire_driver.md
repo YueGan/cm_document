@@ -51,7 +51,7 @@ HTTP请求方式:
 <span style="background-color : lightbule">
 ```
 {
-    result: number,
-    message: string
+    ev_result: number,
+    ev_message: string
 }```
 </span>

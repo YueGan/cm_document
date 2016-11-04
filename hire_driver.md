@@ -31,8 +31,8 @@
 
 | Tables | 类型及其范围 | 说明 |  默认值|
 | ------------- |-------------|-----|-----|
-| result | number |  请求是否成功 ||
-| message | string | 报错信息 | 空|
+| ev_result | number |  请求是否成功(0为成功, 1为错误) ||
+| ev_message | string | 报错信息 | 空|
 
 返回结果(默认JSON):
 ```

@@ -14,7 +14,7 @@
 
 | Tables | 类型及其范围 | 说明 |  默认值|
 | -------------|-------------| -----|-----|
-| Authtoken | string | token验证信息 |hire_driver_chanmao_inc|
+| Authortoken | string | token验证信息 |hire_driver_chanmao_inc|
 
 请求参数:
 

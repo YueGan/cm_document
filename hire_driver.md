@@ -45,8 +45,8 @@ HTTP请求方式:
 
 | Tables | 类型及其范围 | 说明 |  默认值|
 | ------------- |-------------|-----|-----|
-| result | number |  请求是否成功 ||
-| message | string | 报错信息 | 空|
+| ev_result | number |  请求是否成功 ||
+| ev_message | string | 报错信息 | 空|
 
 <span style="background-color : lightbule">
 ```

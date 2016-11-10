@@ -32,7 +32,7 @@
 | Tables | 类型及其范围 | 说明 |  默认值|
 | ------------- |-------------|-----|-----|
 |author_id|number|作者ID||
-| team | char() | 待编辑 ||
+| team | string | 待编辑 ||
 | bio_name | string | 作者名字 ||
 | bio_pic | string | 作者照片地址 ||
 | bio_desc | string | 作者介绍 ||

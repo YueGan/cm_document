@@ -45,7 +45,7 @@
 [
     {
       "author_id": number,
-      "team": char(),
+      "team": string,
       "bio_name": string,
       "bio_pic": string,
       "bio_desc": string,
@@ -54,7 +54,7 @@
     },
     {
       "author_id": number,
-      "team": char(),
+      "team": string,
       "bio_name": string,
       "bio_pic": string,
       "bio_desc": string,

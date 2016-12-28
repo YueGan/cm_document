@@ -1,44 +1,44 @@
 ##商家关店管理----获取关店列表API
 
-| Tables |  说明 |  默认值|
-| :-------------:| :-----:|:-----:|
-| URL | /api/v1/rr_close||
-| HTTP请求方式 | GET |  |
-| 是否需要登录 | 否 |  |
-| 授权访问限制 | 暂无 |  |
-| 授权范围() | 暂无 | |
-| 支持格式 | JSON | |
+|  Tables  |        说明        | 默认值  |
+| :------: | :--------------: | :--: |
+|   URL    | /api/v1/rr_close |      |
+| HTTP请求方式 |       GET        |      |
+|  是否需要登录  |        否         |      |
+|  授权访问限制  |        暂无        |      |
+|  授权范围()  |        暂无        |      |
+|   支持格式   |       JSON       |      |
 
 
 表头参数:
 
-| Tables | 类型及其范围 | 说明 |  默认值|
-| -------------|-------------| -----|-----|
-| Authortoken | string | token验证信息 ||
+| Tables      | 类型及其范围 | 说明        | 默认值  |
+| ----------- | ------ | --------- | ---- |
+| Authortoken | string | token验证信息 |      |
 
 
 返回字段说明:\
 
-| Table | 类型 |说明|
-|--------|--------|-----|
-|  ev_result      |   string     | 0为成功 1为失败|
-|  ev_message      |   string     ||
-|  ev_data      |    array    |array of restaurants|
+| Table      | 类型     | 说明                   |
+| ---------- | ------ | -------------------- |
+| ev_result  | string | 0为成功 1为失败            |
+| ev_message | string |                      |
+| ea_data    | array  | array of restaurants |
 
-| [ev_data] | 类型及其范围 | 说明 |  默认值|
-| ------------- |-------------|-----|-----|
-|rid|string|餐馆id||
-|close_id|string|关店餐馆id||
-|rr_name|string|餐馆名字||
-|start_time|string|开始关店时间||
-|end_time|string|结束关店时间||
+| [ev_data]  | 类型及其范围 | 说明     | 默认值  |
+| ---------- | ------ | ------ | ---- |
+| rid        | string | 餐馆id   |      |
+| close_id   | string | 关店餐馆id |      |
+| rr_name    | string | 餐馆名字   |      |
+| start_time | string | 开始关店时间 |      |
+| end_time   | string | 结束关店时间 |      |
 
 返回结果(默认JSON):
 ```
 {
-    result: number,
-    message: string,
-    data:[
+    ev_result: number,
+    ev_message: string,
+    ea_data:[
      {
      rid:"",
      id:"",

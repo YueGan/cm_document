@@ -43,7 +43,7 @@
 返回结果(默认JSON):
 ```
 {
-    result: number,
-    message: string
+    ev_result: number,
+    ev_message: string
 }
 ```

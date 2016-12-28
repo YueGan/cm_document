@@ -28,9 +28,9 @@
 返回结果(默认JSON):
 ```
 {
-    result: number,
-    message: string,
-    role: number
+    ev_result: number,
+    ev_message: string,
+    ev_role: number
 }
 ```
 

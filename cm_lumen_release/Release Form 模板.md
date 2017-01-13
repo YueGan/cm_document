@@ -43,7 +43,7 @@
 
 | 函数           | 请求参数                            | 说明                                       |
 | ------------ | ------------------------------- | ---------------------------------------- |
-| createCSWork | uid, valid_from, valid_to, zone | 将valid_from, valid_to从 'Y-m-d H:i:s'转换为数字形式的timestamp存入数据库 |
+| createCSWork | uid, valid_from, valid_to, zone | 使用CSInsert, 将valid_from, valid_to从 'Y-m-d H:i:s'转换为数字形式的timestamp存入数据库 |
 
 | 参数         | 传入程序层  | 传入数据库层 | 说明                                     |
 | ---------- | ------ | ------ | -------------------------------------- |
@@ -56,7 +56,7 @@
 
 | 函数           | 请求参数                                | 说明                                       |
 | ------------ | ----------------------------------- | ---------------------------------------- |
-| updateCSWork | id, uid, valid_from, valid_to, zone | 将valid_from, valid_to从 'Y-m-d H:i:s'转换为数字形式的timestamp存入数据库 |
+| updateCSWork | id, uid, valid_from, valid_to, zone | 使用CSUpdate, 将valid_from, valid_to从 'Y-m-d H:i:s'转换为数字形式的timestamp存入数据库 |
 
 | 参数         | 传入程序层  | 传入数据库层 | 说明                                     |
 | ---------- | ------ | ------ | -------------------------------------- |

@@ -9,18 +9,26 @@
 
 ####速查表:
 
-| HTTP请求方式 | 对应函数          | 对应Procedure    | 对应表格                    |
-| -------- | ------------- | -------------- | ----------------------- |
-| GET      | index         | get_rrclose    | cm_rr_close, cm_rr_base |
-| POST     | createRRClose | insert_rrclose | cm_rr_close             |
-| PUT      | updateRRClose | update_rrclose | cm_rr_close             |
+| HTTP请求方式 | 对应函数          | 对应Procedure | 对应表格                    |
+| -------- | ------------- | ----------- | ----------------------- |
+| GET      | index         | 无           | cm_rr_close, cm_rr_base |
+| GET      | getOneClose   | 无           | cm_rr_close, cm_rr_base |
+| POST     | createRRClose | 无           | cm_rr_close             |
+| PUT      | updateRRClose | 无           | cm_rr_close             |
 
 ####程序层:
-| 函数    | 请求参数 | 说明            |
-| ----- | ---- | ------------- |
-| index | 无    | 使用get_rrclose |
+| 函数    | 请求参数 | 说明     |
+| ----- | ---- | ------ |
+| index | 无    | 所有关店记录 |
 
 ----
+
+| 函数          | 请求参数 | 说明     |
+| ----------- | ---- | ------ |
+| getOneClose | rid  | 单个关店记录 |
+
+----
+
 
 | 函数            | 请求参数                      | 说明               |
 | ------------- | ------------------------- | ---------------- |
@@ -44,33 +52,6 @@
 | start_time | string | string | 关店时间 |
 | end_time   | string | string | 重开时间 |
 | id         | int    | int    | 关店ID |
-
-####数据库层:
-
-| Procedure | get_rrclose                         |
-| --------- | ----------------------------------- |
-| 请求参数      | 无                                   |
-| 返回值       | id, rid, name, start_time, end_time |
-| 影响表格      | cm_rr_close, cm_rr_base             |
-| 备注        | 无                                   |
-
-----
-
-| Procedure | insert_rrclose                      |
-| --------- | ----------------------------------- |
-| 请求参数      | iv_rid, iv_start_time, iv_end_time  |
-| 返回值       | 无                                   |
-| 影响表格      | cm_rr_close                         |
-| 备注        | status, updated_at, updated_by 默认为0 |
-
-----
-
-| Procedure | update_rrclose                           |
-| --------- | ---------------------------------------- |
-| 请求参数      | iv_close_id, iv_rid, iv_start_time, iv_end_time) |
-| 返回值       | 无                                        |
-| 影响表格      | cm_rr_close                              |
-| 备注        | 无                                        |
 
 
 
